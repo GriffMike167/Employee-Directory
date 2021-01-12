@@ -82,7 +82,8 @@ return b[heading]-  a[heading];
             filteredUsers: results.data.results
           });
         });
-      }, [developerState]);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      }, []);
     
       return (
         <DataAreaContext.Provider value={{ developerState, handleSearchChange, handleSort }}>
