@@ -9,11 +9,12 @@ const DataTable = () => {
 
     return (
         <div className="datatable mt-2">
+        {console.log(context.developerState.filteredUsers)}
             <table id="table"
             className="table-hover">
                 <thead>
                     <tr>
-                        {context.developerState.headings.map(({ name, width }) => {
+                        {context.developerState.headings.map(({ name,  width }) => {
                             return (<th 
                                 className="col"
                                 key={name}
@@ -23,6 +24,7 @@ const DataTable = () => {
                                 }}
                                 >
                                     { name }
+
                                     <span className="pointer"></span>
                                 </th>
                             );
