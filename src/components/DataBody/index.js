@@ -6,7 +6,7 @@ const DataBody = () => {
     const context = useContext(DataAreaContext);
 
 
-    function formatDate(data){
+    function formatDate(date){
         const dateArray = date.split("-");
         const year = dateArray[0];
         const month =dateArray[1];
@@ -18,11 +18,11 @@ const DataBody = () => {
     }
     return (
         <tbody>
-            {context.developerStae.filteredUsers[0] !== undefiend && context.develpoerState.filteredUsers[0].name !== undefined ? (
-                context.developerState.filteredUsers.map (({ login, name, picture, email, dob}) => {
+            {context.developerState.Users !== undefined && context.develpoerState.Users.name !== undefined ? (
+                context.developerState.Users.map (({ login, name, picture, phone, email, dob}) => {
                     return (
                         <tr key={login.uuid}>
-                            <td data-th="Image" className="align-middle">
+                            <td data-th="Image" className="img align-middle">
                                 <img src={picture.medium} alt={"profile img for " + name.first + " " + name.last} className="img-responsive" />
                             </td>
                             <td data-th="Name" className="name align-middle">{name.first}{name.last}</td>

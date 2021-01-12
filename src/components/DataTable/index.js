@@ -1,18 +1,19 @@
-import REACT, { useContext } from "react";
+/* eslint-disable no-unused-vars */
+import React, { useContext } from "react";
 import DataBody from "../DataBody";
 import "./DataTable.css";
 import DataAreaContext from "../../utils/DataAreaContext";
 
 const DataTable = () => {
-    const context = useContext(DataAreaContext)
+    const context = useContext(DataAreaContext);
 
     return (
         <div className="datatable mt-2">
             <table id="table"
-            calssName="table-hover">
+            className="table-hover">
                 <thead>
                     <tr>
-                        {context.developerState.headings.map(({ name, width}) => {
+                        {context.developerState.headings.map(({ name, width }) => {
                             return (<th 
                                 className="col"
                                 key={name}
@@ -34,4 +35,4 @@ const DataTable = () => {
         </div>
     )
 }
-export default DataTable
+export default DataTable;

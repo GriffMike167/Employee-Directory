@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, {useState, useEffect} from "react";
 import DataTable from "../DataTable";
 import Nav from "../Nav";
@@ -85,12 +86,9 @@ return b[heading]-  a[heading];
       }, []);
     
       return (
-        <DataAreaContext.Provider
-          value={{ developerState, handleSearchChange, handleSort }}
-        >
+        <DataAreaContext.Provider value={{ developerState, handleSearchChange, handleSort }}>
           <Nav />
-          <div className="data-area">
-            {developerState.filteredUsers.length > 0 
+          <div className="data-area">{developerState.filteredUsers.length > 0 
     ? <DataTable />
      : <div></div>
      }

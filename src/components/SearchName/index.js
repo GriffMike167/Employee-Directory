@@ -14,9 +14,9 @@ const SearchName = () => {
                 type="search"
                 placeholder="Search"
                 onChange={e => context.handleSearchChange(e)}/>
-                <buttin className="btn" type="submit">
+                <button className="btn" type="submit">
                     Search
-                </buttin>
+                </button>
             </form>
         </div>
     )
