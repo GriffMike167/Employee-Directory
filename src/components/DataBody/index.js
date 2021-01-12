@@ -18,7 +18,7 @@ const DataBody = () => {
     }
     return (
         <tbody>
-            {context.developerState.filteredUsers !== undefined && context.develpoerState.filteredUsers.name !== undefined ? (
+            {context.developerState.filteredUsers !== undefined && context.developerState.filteredUsers.name !== undefined ? (
                 context.developerState.Users.map (({ login, name, picture, phone, email, dob}) => {
                     return (
                         <tr key={login.uuid}>
