@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GriffMike167/Employee-Directory/static/css/main.0adb90ce.chunk.css",
+    "main.js": "/GriffMike167/Employee-Directory/static/js/main.d072b79c.chunk.js",
+    "main.js.map": "/GriffMike167/Employee-Directory/static/js/main.d072b79c.chunk.js.map",
+    "runtime-main.js": "/GriffMike167/Employee-Directory/static/js/runtime-main.fe453e81.js",
+    "runtime-main.js.map": "/GriffMike167/Employee-Directory/static/js/runtime-main.fe453e81.js.map",
+    "static/js/2.4a795488.chunk.js": "/GriffMike167/Employee-Directory/static/js/2.4a795488.chunk.js",
+    "static/js/2.4a795488.chunk.js.map": "/GriffMike167/Employee-Directory/static/js/2.4a795488.chunk.js.map",
+    "index.html": "/GriffMike167/Employee-Directory/index.html",
+    "static/css/main.0adb90ce.chunk.css.map": "/GriffMike167/Employee-Directory/static/css/main.0adb90ce.chunk.css.map",
+    "static/js/2.4a795488.chunk.js.LICENSE.txt": "/GriffMike167/Employee-Directory/static/js/2.4a795488.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe453e81.js",
+    "static/js/2.4a795488.chunk.js",
+    "static/css/main.0adb90ce.chunk.css",
+    "static/js/main.d072b79c.chunk.js"
+  ]
+}
