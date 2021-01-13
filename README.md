@@ -30,7 +30,7 @@
 ## Installation
   
 ## Usage
-  To help employers keep better recored information at their fingertips. [Employee Directory](hhttps://calm-wildwood-23470.herokuapp.com/)
+  To help employers keep better recored information at their fingertips. [Employee Directory](https://calm-wildwood-23470.herokuapp.com/)
 
 
 
