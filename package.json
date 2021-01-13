@@ -2,7 +2,7 @@
   "name": "employee-directory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GriffMike167/Employee-Directory",
+  "homepage": "https://github.com/Employee-Directory",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
